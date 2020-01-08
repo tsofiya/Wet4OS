@@ -87,6 +87,9 @@
 		<Unit filename="/home/student/repos/Wet4OS/Barrier.h">
 			<Option target="Wet4OS"/>
 		</Unit>
+		<Unit filename="/home/student/repos/Wet4OS/ThreadSafeList.cpp">
+			<Option target="Wet4OS"/>
+		</Unit>
 		<Unit filename="/home/student/repos/Wet4OS/ThreadSafeList.h">
 			<Option target="Wet4OS"/>
 		</Unit>

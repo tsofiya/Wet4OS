@@ -123,6 +123,33 @@ Wet4OS/fast:
 	$(MAKE) -f CMakeFiles/Wet4OS.dir/build.make CMakeFiles/Wet4OS.dir/build
 .PHONY : Wet4OS/fast
 
+ThreadSafeList.o: ThreadSafeList.cpp.o
+
+.PHONY : ThreadSafeList.o
+
+# target to build an object file
+ThreadSafeList.cpp.o:
+	$(MAKE) -f CMakeFiles/Wet4OS.dir/build.make CMakeFiles/Wet4OS.dir/ThreadSafeList.cpp.o
+.PHONY : ThreadSafeList.cpp.o
+
+ThreadSafeList.i: ThreadSafeList.cpp.i
+
+.PHONY : ThreadSafeList.i
+
+# target to preprocess a source file
+ThreadSafeList.cpp.i:
+	$(MAKE) -f CMakeFiles/Wet4OS.dir/build.make CMakeFiles/Wet4OS.dir/ThreadSafeList.cpp.i
+.PHONY : ThreadSafeList.cpp.i
+
+ThreadSafeList.s: ThreadSafeList.cpp.s
+
+.PHONY : ThreadSafeList.s
+
+# target to generate assembly for a file
+ThreadSafeList.cpp.s:
+	$(MAKE) -f CMakeFiles/Wet4OS.dir/build.make CMakeFiles/Wet4OS.dir/ThreadSafeList.cpp.s
+.PHONY : ThreadSafeList.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -186,6 +213,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Wet4OS"
 	@echo "... edit_cache"
+	@echo "... ThreadSafeList.o"
+	@echo "... ThreadSafeList.i"
+	@echo "... ThreadSafeList.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Wet4OS.dir/ThreadSafeList.cpp.o"
   "CMakeFiles/Wet4OS.dir/main.cpp.o"
   "CMakeFiles/Wet4OS.dir/testListHooks.cpp.o"
   "Wet4OS"
