@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Wet4OS.dir/main.cpp.o CMakeFiles/Wet4OS.dir/testListHooks.cpp.o  -o Wet4OS 
