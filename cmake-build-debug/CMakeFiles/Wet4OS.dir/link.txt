@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/Wet4OS.dir/main.cpp.o CMakeFiles/Wet4OS.dir/testListHooks.cpp.o CMakeFiles/Wet4OS.dir/ThreadSafeList.cpp.o  -o Wet4OS 
+/usr/bin/c++   --std=c++11 -pthread -Wall -pedantic -Werror -fPIC -pthread -std=c++11 -g   CMakeFiles/Wet4OS.dir/ThreadSafeList.cpp.o CMakeFiles/Wet4OS.dir/testListHooks.cpp.o  -o Wet4OS 

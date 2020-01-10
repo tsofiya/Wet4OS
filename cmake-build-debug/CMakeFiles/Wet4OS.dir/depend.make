@@ -4,8 +4,6 @@
 CMakeFiles/Wet4OS.dir/ThreadSafeList.cpp.o: ../ThreadSafeList.cpp
 CMakeFiles/Wet4OS.dir/ThreadSafeList.cpp.o: ../ThreadSafeList.h
 
-CMakeFiles/Wet4OS.dir/main.cpp.o: ../main.cpp
-
 CMakeFiles/Wet4OS.dir/testListHooks.cpp.o: ../ThreadSafeList.h
 CMakeFiles/Wet4OS.dir/testListHooks.cpp.o: ../testListHooks.cpp
 

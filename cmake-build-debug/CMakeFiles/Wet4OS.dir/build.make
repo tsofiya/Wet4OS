@@ -57,18 +57,18 @@ include CMakeFiles/Wet4OS.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Wet4OS.dir/flags.make
 
-CMakeFiles/Wet4OS.dir/main.cpp.o: CMakeFiles/Wet4OS.dir/flags.make
-CMakeFiles/Wet4OS.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/repos/Wet4OS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Wet4OS.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Wet4OS.dir/main.cpp.o -c /home/student/repos/Wet4OS/main.cpp
+CMakeFiles/Wet4OS.dir/ThreadSafeList.cpp.o: CMakeFiles/Wet4OS.dir/flags.make
+CMakeFiles/Wet4OS.dir/ThreadSafeList.cpp.o: ../ThreadSafeList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/repos/Wet4OS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Wet4OS.dir/ThreadSafeList.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Wet4OS.dir/ThreadSafeList.cpp.o -c /home/student/repos/Wet4OS/ThreadSafeList.cpp
 
-CMakeFiles/Wet4OS.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Wet4OS.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/repos/Wet4OS/main.cpp > CMakeFiles/Wet4OS.dir/main.cpp.i
+CMakeFiles/Wet4OS.dir/ThreadSafeList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Wet4OS.dir/ThreadSafeList.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/repos/Wet4OS/ThreadSafeList.cpp > CMakeFiles/Wet4OS.dir/ThreadSafeList.cpp.i
 
-CMakeFiles/Wet4OS.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Wet4OS.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/repos/Wet4OS/main.cpp -o CMakeFiles/Wet4OS.dir/main.cpp.s
+CMakeFiles/Wet4OS.dir/ThreadSafeList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Wet4OS.dir/ThreadSafeList.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/repos/Wet4OS/ThreadSafeList.cpp -o CMakeFiles/Wet4OS.dir/ThreadSafeList.cpp.s
 
 CMakeFiles/Wet4OS.dir/testListHooks.cpp.o: CMakeFiles/Wet4OS.dir/flags.make
 CMakeFiles/Wet4OS.dir/testListHooks.cpp.o: ../testListHooks.cpp
@@ -83,34 +83,19 @@ CMakeFiles/Wet4OS.dir/testListHooks.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Wet4OS.dir/testListHooks.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/repos/Wet4OS/testListHooks.cpp -o CMakeFiles/Wet4OS.dir/testListHooks.cpp.s
 
-CMakeFiles/Wet4OS.dir/ThreadSafeList.cpp.o: CMakeFiles/Wet4OS.dir/flags.make
-CMakeFiles/Wet4OS.dir/ThreadSafeList.cpp.o: ../ThreadSafeList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/repos/Wet4OS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Wet4OS.dir/ThreadSafeList.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Wet4OS.dir/ThreadSafeList.cpp.o -c /home/student/repos/Wet4OS/ThreadSafeList.cpp
-
-CMakeFiles/Wet4OS.dir/ThreadSafeList.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Wet4OS.dir/ThreadSafeList.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/repos/Wet4OS/ThreadSafeList.cpp > CMakeFiles/Wet4OS.dir/ThreadSafeList.cpp.i
-
-CMakeFiles/Wet4OS.dir/ThreadSafeList.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Wet4OS.dir/ThreadSafeList.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/repos/Wet4OS/ThreadSafeList.cpp -o CMakeFiles/Wet4OS.dir/ThreadSafeList.cpp.s
-
 # Object files for target Wet4OS
 Wet4OS_OBJECTS = \
-"CMakeFiles/Wet4OS.dir/main.cpp.o" \
-"CMakeFiles/Wet4OS.dir/testListHooks.cpp.o" \
-"CMakeFiles/Wet4OS.dir/ThreadSafeList.cpp.o"
+"CMakeFiles/Wet4OS.dir/ThreadSafeList.cpp.o" \
+"CMakeFiles/Wet4OS.dir/testListHooks.cpp.o"
 
 # External object files for target Wet4OS
 Wet4OS_EXTERNAL_OBJECTS =
 
-Wet4OS: CMakeFiles/Wet4OS.dir/main.cpp.o
-Wet4OS: CMakeFiles/Wet4OS.dir/testListHooks.cpp.o
 Wet4OS: CMakeFiles/Wet4OS.dir/ThreadSafeList.cpp.o
+Wet4OS: CMakeFiles/Wet4OS.dir/testListHooks.cpp.o
 Wet4OS: CMakeFiles/Wet4OS.dir/build.make
 Wet4OS: CMakeFiles/Wet4OS.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/student/repos/Wet4OS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Wet4OS"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/student/repos/Wet4OS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Wet4OS"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Wet4OS.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

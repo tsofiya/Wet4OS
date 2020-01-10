@@ -29,7 +29,7 @@ class MyList : public List<T> {
 int main() {
   List<int>* l = new MyList<int>();
   for (int i=0; i<20; i+=2) {
-    l->insert(i);
+      l->insert(i);
   }
   l->print(); // should print: 0,2,4,6,8,10,12,14,16,18
   assert(l->getSize() == 10);
